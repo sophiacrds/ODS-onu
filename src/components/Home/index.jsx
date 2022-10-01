@@ -1,5 +1,5 @@
 import React from "react";
-import { TextContent } from "../../texts";
+import { ODS } from "../../assets/ods-objectives";
 import Card from "../Card";
 import Description from "../Description";
 import Header from "../Header";
@@ -12,7 +12,7 @@ export default function HomeOnu() {
 			<S.Content>
 				<Description />
 				<S.CardsBox>
-					{TextContent.map((i) => (
+					{ODS.map((i) => (
 						<Card
 							key={i.num}
 							num={i.num}

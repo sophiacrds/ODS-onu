@@ -1,6 +1,6 @@
 import { faFaucet } from "@fortawesome/free-solid-svg-icons";
 
-export const TextContent = [
+export const ODS = [
 	{
 		num: 1,
 		color: "var(--ods1-color)",
