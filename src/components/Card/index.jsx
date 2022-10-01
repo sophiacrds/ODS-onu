@@ -1,16 +1,39 @@
-import React from "react";
-import { faFaucet } from "@fortawesome/free-solid-svg-icons";
+import React, { useState } from "react";
 import * as S from "./style";
+import ComplexModal from "../Modal";
 
-export default function Card() {
+export default function Card(p) {
+	const [isOpen, setIsOpen] = useState(false);
+
+	const toggle = () => {
+		setIsOpen(!isOpen);
+	};
+
 	return (
-		<S.CardS>
-			<S.Text>
-				<S.Numb>1</S.Numb>
-				<S.Title>SANEAMENTO BÁSICO</S.Title>
-			</S.Text>
-			<img src="" alt="" />
-			<S.Icon icon={faFaucet} />
-		</S.CardS>
+		<>
+			<S.CardS
+				{...p}
+				onClick={() => {
+					toggle();
+				}}
+			>
+				<S.Text>
+					<S.Numb>{p.num}</S.Numb>
+					<S.Title>{p.title}</S.Title>
+				</S.Text>
+				<S.Icon icon={p.img} />
+			</S.CardS>
+
+			<ComplexModal
+				num={p.num}
+				title={p.title}
+				subtitle={p.subtitle}
+				img={p.img}
+				text={p.text}
+				color={p.color}
+				toggle={toggle}
+				open={isOpen}
+			/>
+		</>
 	);
 }

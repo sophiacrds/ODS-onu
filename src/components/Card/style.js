@@ -14,7 +14,8 @@ export const CardS = styled.div`
 
 	border-radius: 10px;
 
-	background: red;
+	background: ${(p) => (p.color ? p.color : "blue")};
+	cursor: pointer;
 `;
 
 export const Text = styled.div`

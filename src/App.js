@@ -1,12 +1,16 @@
 import React from "react";
-import Card from "./components/Card";
+import HomeOnu from "./components/Home";
 import { GlobalStyle } from "./global/GlobalStyle";
+import { ModalProvider } from "styled-react-modal";
+import { SpecialModalBackground } from "./components/Modal/style";
 
 export default function App() {
 	return (
 		<>
 			<GlobalStyle />
-			<Card />
+			<ModalProvider backgroundComponent={SpecialModalBackground}>
+				<HomeOnu />
+			</ModalProvider>
 		</>
 	);
 }
