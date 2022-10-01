@@ -60,11 +60,11 @@ export const TextContent = styled.div`
 	align-items: center;
 
 	@media (min-width: 600px) {
-		padding: 2rem;
+		padding: 1.5rem;
 	}
 
 	@media (min-width: 768px) {
-		height: 80%;
+		height: 100%;
 	}
 	@media (min-width: 1000px) {
 		width: 50%;
