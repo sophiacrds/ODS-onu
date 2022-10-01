@@ -12,6 +12,8 @@ export default function ComplexModal(p) {
 				</S.List>
 				<S.Close
 					icon={faXmark}
+					title="Fechar"
+					alt="Fechar"
 					onClick={() => {
 						p.toggle();
 					}}

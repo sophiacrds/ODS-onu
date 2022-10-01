@@ -35,6 +35,7 @@ export const List = styled.ul`
 	justify-content: center;
 	align-items: center;
 	gap: 0.2rem;
+	overflow: scroll;
 
 	li {
 		font-size: 1.5rem;
@@ -44,14 +45,14 @@ export const List = styled.ul`
 
 export const Close = styled(FontAwesomeIcon)`
 	height: 3rem;
-	margin: 3rem 0 0;
+	margin: 2.5rem 0 0;
 	cursor: pointer;
 `;
 
 export const TextContent = styled.div`
 	width: 100%;
 	height: 100%;
-	padding: 1rem;
+	padding: var(--padMob);
 
 	display: flex;
 	flex-direction: column;
