@@ -12,9 +12,10 @@ export const CardS = styled.div`
 	justify-content: space-between;
 	align-items: center;
 
-	border-radius: 10px;
+	border-radius: 15px;
+	box-shadow: 6px 6px 10px #e9e9e9;
 
-	background: ${(p) => (p.color ? p.color : "blue")};
+	background: ${(p) => p.color};
 	cursor: pointer;
 `;
 
