@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Modal, { BaseModalBackground } from "styled-react-modal";
 
 export const StyledModal = Modal.styled`
@@ -10,12 +10,10 @@ export const StyledModal = Modal.styled`
   justify-content: center;
   background-color: white;
 	
-
   @media (min-width: 600px){
     width: 70vw;
    height: 80vh;
   }
-
   @media (min-width: 768px) {
 		flex-direction: column-reverse;
 	}
@@ -55,7 +53,6 @@ export const TextContent = styled.div`
 	width: 100%;
 	height: 100%;
 	padding: var(--padMob);
-
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -78,13 +75,11 @@ export const CardContent = styled.div`
 	width: 100%;
 	height: 20%;
 	padding: 2rem;
-
+	background: ${(p) => p.color};
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-end;
 	text-align: end;
-
-	background: ${(p) => p.color};
 
 	@media (min-width: 768px) {
 		display: flex;

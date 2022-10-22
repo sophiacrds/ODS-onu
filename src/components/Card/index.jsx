@@ -23,7 +23,6 @@ export default function Card(p) {
 				</S.Text>
 				<S.Icon icon={p.img} alt={`${p.title} image`} />
 			</S.CardS>
-
 			<ComplexModal
 				num={p.num}
 				title={p.title}

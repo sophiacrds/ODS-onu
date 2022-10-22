@@ -1,3 +1,4 @@
+import React from "react";
 import * as S from "./style";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 

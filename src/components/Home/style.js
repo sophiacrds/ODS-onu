@@ -4,7 +4,6 @@ export const Main = styled.main`
 	width: 100%;
 	height: 100%;
 	padding: var(--padMob);
-
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -46,7 +45,6 @@ export const CardsBox = styled.div`
 	width: 100%;
 	max-width: calc(12rem * 4);
 	padding: var(--padMob);
-
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;

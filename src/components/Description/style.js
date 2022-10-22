@@ -4,7 +4,6 @@ export const Box = styled.div`
 	width: 100%;
 	height: unset;
 	padding: var(--padMob);
-
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

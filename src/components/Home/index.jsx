@@ -1,9 +1,9 @@
 import React from "react";
+import * as S from "./style";
 import { ODS } from "../../assets/ods-objectives";
 import Card from "../Card";
 import Description from "../Description";
 import Header from "../Header";
-import * as S from "./style";
 
 export default function HomeOnu() {
 	return (

@@ -4,16 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const CardS = styled.div`
 	width: 90%;
 	padding: 1rem;
-	/* margin: 1rem; */
-
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: center;
-
-	/* border-radius: 15px;
-	box-shadow: 6px 6px 10px #e9e9e9; */
-
 	background: ${(p) => p.color};
 	cursor: pointer;
 
