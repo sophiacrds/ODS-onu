@@ -29,12 +29,17 @@ export const SpecialModalBackground = styled(BaseModalBackground)`
 `;
 
 export const List = styled.ul`
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
 	gap: 1rem;
 	overflow: scroll;
+	
+	::-webkit-scrollbar{
+        	display: none;
+    	};
 
 	li {
 		font-size: 1.4rem;
