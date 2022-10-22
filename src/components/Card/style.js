@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const CardS = styled.div`
-	width: 90%;
+	width: 95%;
 	padding: 1rem;
 	display: flex;
 	flex-direction: column;

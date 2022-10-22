@@ -36,10 +36,10 @@ export const List = styled.ul`
 	align-items: center;
 	gap: 1rem;
 	overflow: scroll;
-	
-	::-webkit-scrollbar{
-        	display: none;
-    	};
+
+	::-webkit-scrollbar {
+		display: none;
+	}
 
 	li {
 		font-size: 1.4rem;
@@ -115,10 +115,10 @@ export const Title = styled.h3`
 
 export const Subtitle = styled.p`
 	font-size: 1.2rem;
-	width: 90%;
 
 	@media (min-width: 1000px) {
 		font-size: 1.4rem;
+		width: 90%;
 	}
 `;
 

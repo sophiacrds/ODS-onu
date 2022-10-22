@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+<img src="https://i.ibb.co/QpLTKSz/badge-M2-T2.png" alt="Badge Vai Na Web T2.1" width="150" align="right">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Objetivos de Desenvolvimento Sustentável no Bairro Liberdade em Porto Velho/RO
 
-## Available Scripts
+<i>Projeto desenvolvido como desafio referente ao módulo 2 do curso Vai na Web de desenvolvimento front-end. </i><br><br>
 
-In the project directory, you can run:
+<div align="center">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/sophiacrds/ODS-onu?color=khaki">
+    <img alt="GitHub Repository Size" src="https://img.shields.io/github/repo-size/sophiacrds/ODS-onu?color=white">
+    <img alt="GitHub Total lines" src="https://img.shields.io/tokei/lines/github/sophiacrds/ODS-onu?color=white">
+    <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/sophiacrds/ODS-onu?color=white">
 
-### `npm start`
+</div><br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Os Objetivos de Desenvolvimento Sustentável (ODS) são uma agenda mundial adotada durante a Cúpula das Nações Unidas sobre o Desenvolvimento Sustentável em setembro de 2015 composta por 17 objetivos e 169 metas a serem atingidos até 2030.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+No projeto em questão, nos propomos a pensar em soluções possíveis a partir dos problemas enfrentados nos bairros em que moramos. Assim, após pesquisa e levantamento de informações, apresento algumas propostas como Objetivos de Desenvolvimento Sustentável para o Bairro Liberdade, em Porto Velho/RO.
 
-### `npm test`
+## PREVIEW
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<div align="center">
+  <img src="./src/assets/demos/demo-desktop.gif" width="650">
+  <img src="./src/assets/demos/demo-tablet.gif" width="400">
+  <img src="./src/assets/demos/demo-mobile.gif" width="300">
+</div>
+<br>
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center">
+    <a href="https://www.linkedin.com/in/sophia-leão-733880101/" alt="Linkedin"><img src="https://img.shields.io/badge/-Sophia Leão-white?style=flat&logo=Linkedin&logoColor=black"></a>
+</div>

@@ -11,7 +11,11 @@ export const Box = styled.div`
 	gap: 1.5rem;
 
 	@media (min-width: 750px) {
-		width: 50%;
+		width: 65%;
+	}
+
+	@media (min-width: 900px) {
+		width: 75%;
 	}
 `;
 
@@ -19,7 +23,7 @@ export const Title = styled.h2`
 	font-size: 1.4rem;
 	text-align: center;
 
-	@media (min-width: 750px) {
+	@media (min-width: 1200px) {
 		text-align: start;
 	}
 
