@@ -9,6 +9,7 @@ export const StyledModal = Modal.styled`
   align-items: center;
   justify-content: center;
   background-color: white;
+	
 
   @media (min-width: 600px){
     width: 70vw;
@@ -32,14 +33,15 @@ export const SpecialModalBackground = styled(BaseModalBackground)`
 export const List = styled.ul`
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
-	gap: 0.2rem;
+	gap: 1rem;
 	overflow: scroll;
 
 	li {
-		font-size: 1.5rem;
+		font-size: 1.4rem;
 		list-style: none;
+		text-align: justify;
 	}
 `;
 
@@ -113,6 +115,7 @@ export const Title = styled.h3`
 
 export const Subtitle = styled.p`
 	font-size: 1.2rem;
+	width: 90%;
 
 	@media (min-width: 1000px) {
 		font-size: 1.4rem;

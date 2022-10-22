@@ -23,7 +23,6 @@ export default function ComplexModal(p) {
 				<S.Num>{p.num}</S.Num>
 				<S.Title>{p.title}</S.Title>
 				<S.Subtitle>{p.subtitle}</S.Subtitle>
-
 				<S.Icon icon={p.img} />
 			</S.CardContent>
 		</S.StyledModal>
